@@ -1,6 +1,6 @@
 name: tap_effect
 description: "The `AnimatedTap` widget is a Flutter widget designed to provide a simple yet effective tap animation."
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
