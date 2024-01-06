@@ -41,6 +41,10 @@ class _AnimatedTapState extends State<AnimatedTap> with SingleTickerProviderStat
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      focusColor: Colors.transparent,
+      hoverColor: Colors.transparent,
+      splashColor: Colors.transparent,
+      highlightColor: Colors.transparent,
       onTap: widget.onTap,
       onTapDown: (value) {
         _animationController.forward();
