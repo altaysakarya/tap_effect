@@ -39,6 +39,12 @@ class _AnimatedTapState extends State<AnimatedTap> with SingleTickerProviderStat
   }
 
   @override
+  void dispose() {
+    _animationController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return InkWell(
       focusColor: Colors.transparent,
