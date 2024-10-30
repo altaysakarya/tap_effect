@@ -58,6 +58,9 @@ class _AnimatedTapState extends State<AnimatedTap> with SingleTickerProviderStat
       onTapUp: (value) {
         _animationController.reverse();
       },
+      onTapCancel: () {
+        _animationController.reverse();
+      },
       child: AnimatedBuilder(
         animation: _animation,
         builder: (context, child) {

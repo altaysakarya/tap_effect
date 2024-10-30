@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * Dispose fix
+
+## 0.0.4
+
+* Tap Cancel bug fix
